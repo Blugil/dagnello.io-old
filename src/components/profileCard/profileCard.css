@@ -1,0 +1,42 @@
+.container {
+    font-family: monospace;
+    height: fit-content;
+    min-width: 300px;
+    max-width: 350px;
+}
+.profileimage {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+h1 {
+    font-size: 36px;
+    font-family: Andale Mono, monospace;
+    margin: 10px 0px;
+}
+
+p {
+    font-size: 16px;
+}
+.list {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+}
+
+.listimage {
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+}
+
+.listelement {
+    list-style-type: none;
+    display: inline;
+    margin-right: 18px;
+}
+
+.listelement:hover {
+    cursor: pointer;
+}
+

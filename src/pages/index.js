@@ -1,9 +1,10 @@
 import * as React from "react"
+import ProfileCard from "../components/profilecard/profileCard"
 
 const IndexPage = () => {
   return (
     <div>
-      Hello world!
+      <ProfileCard />
     </div>
   )
 }

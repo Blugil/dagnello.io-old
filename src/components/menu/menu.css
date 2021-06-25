@@ -1,0 +1,39 @@
+.nav {
+	margin-top: 50px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+ 
+li {
+	 list-style-type: none;
+	 font-size: 16px;
+	 font-weight: bold;
+ }
+
+ .item {
+	 display: flex;
+	 flex-direction: row;
+	 align-items: center;
+	 justify-content: stretch;
+	 padding-bottom: 10px;
+ }
+
+.bar {
+	height: 34px;
+	width: 1px;
+	background-color: #EA0848;
+	opacity: 0;
+	margin-right: 10px;
+}
+
+.item:hover {
+	cursor: pointer;
+}
+
+.item:hover .bar{
+	opacity: 0.5;
+}
