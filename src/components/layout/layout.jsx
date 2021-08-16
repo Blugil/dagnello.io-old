@@ -1,11 +1,17 @@
 import React from 'react';
 import ProfileCard from '../profilecard/profileCard';
+import Coming from '../coming/coming'
 import './layout.css'
 
-const Layout = () => {
+const Layout = (props) => {
 	return(
 		<div className="main">
-			<ProfileCard />
+			<div id="menu">
+				<ProfileCard />
+			</div>
+			<div id="content">
+				<Coming />
+			</div>
 		</div>
 	)
 }

@@ -3,7 +3,7 @@ import Link from 'gatsby';
 
 import './mainArticleCard.css'
 
-const mainArticleCard = () => {
+const mainArticleCard = (props) => {
 
 	return(
 		<div>
