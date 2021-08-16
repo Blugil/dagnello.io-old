@@ -1,7 +1,7 @@
 .container {
     font-family: monospace;
     height: fit-content;
-    max-width: 350px;
+    width: 350px;
     color: #ebdbb2;
 }
 .profileimage {
@@ -41,7 +41,7 @@ p {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .container {
         display: flex;
         flex-direction: column;
