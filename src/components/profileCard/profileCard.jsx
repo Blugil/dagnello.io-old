@@ -18,9 +18,9 @@ const ProfileCard = () => {
                 <a style={{color: "#EA0848"}}>o</a>
                 <a style={{color: "#F8B148"}}>m</a>
                 inick Agnello</h1>
-            <p>Computer science student at Arizona State 
+            <p>Computer Science student at Arizona State 
                 University. Interested in web development, 
-                C/C++, Linux, and tinkering.</p> 
+                C, Rust, Linux, NeoVim, and general tinkering.</p> 
             <ul className="list">
                 <li className="listelement">
                     <img className="listimage" alt="github link" src={github} />
