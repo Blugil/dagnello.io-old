@@ -14,22 +14,28 @@ const ProfileCard = () => {
 	return(
 		<div className="container">
             <img className="profileimage" alt="profile" src={blugil} />
-            <h1><a style={{color: "#5BC0BE"}}>D</a>
-                <a style={{color: "#EA0848"}}>o</a>
-                <a style={{color: "#F8B148"}}>m</a>
+            <h1><a href="/#" style={{color: "#5BC0BE"}}>D</a>
+                <a href="/#" style={{color: "#EA0848"}}>o</a>
+                <a href="/#" style={{color: "#F8B148"}}>m</a>
                 inick Agnello</h1>
             <p>Computer Science student at Arizona State 
                 University. Interested in web development, 
                 C, Rust, Linux, NeoVim, and general tinkering.</p> 
             <ul className="list">
-                <li className="listelement">
-                    <img className="listimage" alt="github link" src={github} />
+                <li> 
+                    <a href="https://github.com/Blugil" rel="noreferrer" target="_blank">
+                        <img className="listimage"  alt="github link" src={github} />
+                    </a>
                 </li>
-                <li className="listelement">
-                    <img className="listimage" alt="linkedin link" src={linkedin} />
+                <li>
+                    <a href="https://www.linkedin.com/in/dominickagnello/" rel="noreferrer" target="_blank">
+                        <img className="listimage" alt="linkedin link" src={linkedin} />
+                    </a>
                 </li>
-                <li className="listelement">
-                    <img className="listimage" alt="reddit link" src={reddit} />
+                <li>
+                    <a href="https://reddit.com/u/Blugil" rel="noreferrer" target="_blank">
+                        <img className="listimage" alt="reddit link" src={reddit} />
+                    </a>
                 </li>
             </ul>
             <Menu />

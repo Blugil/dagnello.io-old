@@ -2,7 +2,7 @@ import React from 'react';
 
 import './coming.css'
 
-const coming = (props) => {
+const coming = () => {
 
 	return(
 		<div id="coming-soon">

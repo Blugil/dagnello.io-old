@@ -24,19 +24,20 @@ p {
    padding: 0px;
 }
 
-.listimage {
-    height: 36px;
-    width: 36px;
-    border-radius: 18px;
-}
+.list li {
 
-.listelement {
     list-style-type: none;
     display: inline;
     margin-right: 18px;
 }
 
-.listelement:hover {
+.list img {
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+}
+
+.list li:hover {
     cursor: pointer;
 }
 
