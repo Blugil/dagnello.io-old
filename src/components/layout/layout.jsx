@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileCard from '../profilecard/profileCard';
+import ProfileCard from '../profileCard/profileCard';
 import Coming from '../coming/coming'
 import './layout.css'
 
