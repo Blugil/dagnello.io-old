@@ -15,9 +15,17 @@ const Menu = (props) => {
 							Home
 						</div>
 					</Link>
+                <li className="navitem">
+					<Link to="/resume"
+					activeClassName="active">
+						<div className="item">
+							<div className="bar"></div>
+							Resume
+						</div>
+					</Link>
+				</li>	
 				</li>	
 				<li className="navitem">
-
 					<Link to="/articles"
 					activeClassName="active">
 						<div className="item">
