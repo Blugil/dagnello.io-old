@@ -7,9 +7,8 @@ const Resume = (props) => {
             <h1>
                 Dominick Agnello
             </h1>
-            <p>Email: dagnello@asu.edu | Website: dagnello.io</p>
-            <p>Github: github.com/blugil | LinkedIn: linkedin.com/in/dominickagnello</p>
-
+            <p>Email: <a href="https://gmail.com" target="_blank" rel="noreferrer">dagnello@asu.edu</a> | Website: <a href="http://dagnello.io" target="_blank" rel="noreferrer"> dagnello.io </a></p>
+            <p>Github: <a href="https://github.com/blugil" target="_blank" rel="noreferrer">github.com/blugil</a> | LinkedIn: <a href="https://linkedin.com/in/dominickagnello" target="_blank" rel="noreferrer">linkedin.com/in/dominickagnello </a></p>
             <h2>
                 Education
             </h2>
