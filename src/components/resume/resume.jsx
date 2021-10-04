@@ -95,7 +95,7 @@ const Resume = (props) => {
                     Used Digital Ocean’s VPS platform alongside Docker to embrace a container workflow and allow for a seamless development to production timeline.
                 </li>
             </ul>
-
+        <div className="spacer"></div>
         </div>
     )
 }
