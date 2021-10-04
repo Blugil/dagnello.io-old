@@ -1,11 +1,14 @@
 .resume-container {
-	max-width: 1100px;
+	max-width: 1000px;
 	font-family: Andale Mono, monospace;
 	color: #ebdbb2;
 }
 
+h1 {
+}
 h2 {
 	margin-top: 40px;
+	font-size: 32px;
 }
 
 a {
@@ -13,7 +16,7 @@ a {
 }
 
 .subh {
-	font-weight: 400;
+	font-size: 18px;
 }
 
 .line {
