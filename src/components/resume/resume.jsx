@@ -68,7 +68,7 @@ const Resume = (props) => {
                 Projects 
             </h2>
             <div className="line"></div>
-            <p>What's for Lunch?</p>
+            <p className="subh">What's for Lunch?</p>
             <p>An inhouse lunch ordering web application created while working at Fisher PHX.</p>
             <ul>
                 <li>
@@ -80,7 +80,7 @@ const Resume = (props) => {
                     NoSQL database that enabled fast load times and a zero-cost upkeep.
                 </li>
             </ul>
-            <p>JobieBot</p>
+            <p className="subh">JobieBot</p>
             <p>A Discord bot developed to allow users to request a picture of a cat and upload their 
                 own cat pictures to a database leveraging Discord's CDN.</p>
             <ul>
