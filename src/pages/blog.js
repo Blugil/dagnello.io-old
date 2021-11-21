@@ -1,17 +1,17 @@
 import * as React from "react"
 import Layout from "../components/layout/layout"
-import ResumeContent from "../components/resume/resume"
+import Articles from "../articles/articles"
 import { Helmet } from "react-helmet"
 
-const Resume = () => {
+const ArticlePage = () => {
   return (
     <React.Fragment>
       <Helmet>
-          <title>Resume | Dominick Agnello</title>   
+        <title>Blog | Dominick Agnello</title>
       </Helmet>
-      <Layout render={<ResumeContent />}/>
+      <Layout render={<Articles />}/>
     </React.Fragment>
   )
 }
 
-export default Resume;
+export default ArticlePage

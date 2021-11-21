@@ -26,7 +26,7 @@ const Menu = (props) => {
 				</li>	
 				</li>	
 				<li className="navitem">
-					<Link to="/articles"
+					<Link to="/blog"
 					activeClassName="active">
 						<div className="item">
 							<div className="bar"></div>

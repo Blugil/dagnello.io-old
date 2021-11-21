@@ -1,12 +1,16 @@
 import * as React from "react"
 import Layout from "../components/layout/layout"
 import Coming from "../components/coming/coming"
+import { Helmet } from "react-helmet"
 
 const ProjectsPage = () => {
   return (
-    <div>
+    <React.Fragment>
+      <Helmet>
+        <title>Projects | Dominick Agnello</title>
+      </Helmet>
       <Layout render={<Coming />}/>
-    </div>
+    </React.Fragment>
   )
 }
 
