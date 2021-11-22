@@ -23,9 +23,9 @@ const Resume = (props) => {
                 Skills
             </h2>
             <div className="line"></div>
-            <p><a>Programming Languages: </a>Javascript, C++, Java, Python</p>
-            <p><a>Notable Language Frameworks: </a> ReactJS, NodeJS, and ExpressJS</p>
-            <p><a>Softer Skills: </a> Git/Github, Unix terminal, Linux environments, MacOS, MongoDB, RESTful API's, Adobe Suit, LaTeX</p>
+            <p><span>Programming Languages: </span>Javascript, C++, Java, Python</p>
+            <p><span>Notable Language Frameworks: </span> ReactJS, NodeJS, and ExpressJS</p>
+            <p><span>Softer Skills: </span> Git/Github, Unix terminal, Linux environments, MacOS, MongoDB, RESTful API's, Adobe Suit, LaTeX</p>
             <h2>
                 Work Experience
             </h2>

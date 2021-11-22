@@ -33,7 +33,7 @@ const Article = () => {
 
 			<p>
 				Hello! If you're seeing this that means I've finally figured out how to get my blog functioning and finally got my website hosted.
-				I wanted to revamp the old <a>dagnello.io</a> site, it needed a little bit of "21st century love" as it was still uses jQuery (no shade jQuery was revolutionary).
+				I wanted to revamp the old <span>dagnello.io</span> site, it needed a little bit of "21st century love" as it was still uses jQuery (no shade jQuery was revolutionary).
 				What you're seeing here is the new site, complete with brand new blog.
 			</p>
 
@@ -45,7 +45,7 @@ const Article = () => {
 
 			<p>
 				Overall I'm pleased with the current site and the current setup. My next post will be a little bit about how the blog system works (and who I stole it from).
-				Of course there are still some missing pages, most notably my <Link to="/projects"><a>projects</a></Link> page and my <Link to="/contact"><a>contact</a></Link> page 
+				Of course there are still some missing pages, most notably my <Link to="/projects"><span>projects</span></Link> page and my <Link to="/contact"><span>contact</span></Link> page 
 				(at the time of writing). Everything's getting a revamp soon and I hope you're excited. 
 				For now just sit back, relax, and read at your leisure. I wont be stopping any time soon.
 			</p>
