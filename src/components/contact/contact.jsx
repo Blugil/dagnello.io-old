@@ -11,6 +11,7 @@ const Contact = () => {
 					<h1>Contact Me</h1>
 					<form name="contact" method="POST" data-netlify="true" onSubmit={() => setSubmit(false)}>
 						<div className="form-input">
+							<input type="hidden" name="contact" valuie="contact"/>
 							<label htmlFor="name" ><h3>Your Name: </h3></label>   
 							<input type="text" name="name" required />
 						</div>
