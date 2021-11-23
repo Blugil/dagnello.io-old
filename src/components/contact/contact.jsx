@@ -69,7 +69,7 @@ const Contact = () => {
 			<div id="thanks-container">
 				<h1>Thank you for your submission!</h1>
 				<p>
-					I'll be in contact with you soon.
+					I'll get back to you as soon as I can.
 				</p>
 			</div> 
 		)
