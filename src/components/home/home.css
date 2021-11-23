@@ -1,0 +1,30 @@
+#home-container {
+	max-width: 700px;
+	min-width: 350px;
+	color: #ebdbb2;
+	font-family: Andale Mono, monospace;
+}
+
+#home-container .section {
+	margin-bottom: 4em;
+}
+
+#home-container ul {
+	list-style: none;
+	padding: 0px;
+}
+
+#home-container p {
+	max-width: 600px;
+}
+
+#home-container span {
+	color: #EA0848;
+}
+
+
+@media (max-width: 800px) {
+	#home-container p {
+		text-align: center;
+	}
+}
