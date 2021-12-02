@@ -9,7 +9,7 @@ indexfile="src/articles/articles.jsx"
 link="<h1>2021<\/h1>"
 
 archivefile="$webdir/blog/.htaccess"
-EDITOR="code"
+EDITOR="nvim"
 
 #initialzies the drafts directory
 [ ! -d "$webdir/blog/.drafts" ] &&
@@ -89,15 +89,15 @@ const Article = () => {\\n
     )\\n
 }\\n\\n export default Article" "$realname" "$name" "$base" "$realname" "$(cat "$webdir/blog/.drafts/$basefile")" "$name" "$webdate" > "$webdir/blog/$basefile"
 	# sed -i "" "/$require/r $tmpdir/require" "$indexfile"
-	sed -i "" "/$link/r $tmpdir/link" "$indexfile"
-	sed -i "" "/ \"$base.jsx\"/d" "$archivefile"
+	sed -i "/$link/r $tmpdir/link" "$indexfile"
+	sed -i "/ \"$base.jsx\"/d" "$archivefile"
 	echo "AddDescription \"$realname\" \"$basefile\" #$rssdate" >> "$archivefile"
 	rm -f "$webdir/blog/.drafts/$chosen"
 }
 
 delete() { \
 #	sed -i "/<item/{:a;N;/<\\/item>/!ba};/#$base<\\/guid/d" "$rssfile"
-	sed -i "" "/<li>.*<Link to=\"blog\/$base.jsx\">/d" "$indexfile"
+	sed -i "/<li>.*<Link to=\"blog\/$base.jsx\">/d" "$indexfile"
 	rm -f "$webdir/blog/$basefile" && [[ "$1" != "draft" ]] && printf "Old blog entry removed.\\n";}
 
 revise() { awk '/^<small>\[/{flag=1;next}/<footer>/{flag=0}flag' "$webdir/blog/$chosen" > "$webdir/blog/.drafts/$basefile"
