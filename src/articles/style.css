@@ -21,6 +21,10 @@ ul {
 	margin-bottom: 10px;
 }
 
+.articles-list li:hover {
+    text-decoration: underline;
+}
+
 h2 {
 	margin-top: 40px;
 	font-size: 32px;
@@ -80,6 +84,10 @@ ol {
 
 .small {
 	margin-bottom: 0.5em;
+}
+
+footer {
+    margin-bottom: 8.0em;
 }
 
 

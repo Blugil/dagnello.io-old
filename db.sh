@@ -62,32 +62,39 @@ publish() { \
 	webdate="$(date '+%a, %d %b %Y %H:%M:%S %z')" # But this visible date you can set to any format.
 	tmpdir=$(mktemp -d)
     # printf "let %s = require(\"./blog/%s\");\n" "$base" "$basefile" > "$tmpdir/require"
-    printf "\\t\\t\\t\\t<li>%s &ndash; <Link to=\"/blog/%s\">%s</Link></li>\n" "$(date '+%Y %b %d')" "$base" "$realname" > "$tmpdir/link"
-    printf "import React from \"react\"; \\n
-import {Helmet} from \"react-helmet\"\\n
-import {Link} from \"gatsby\";\\n
-import \"$css\";\\n
+    printf "\\t\\t\\t\\t<li><Link to=\"/blog/%s\">%s &ndash; %s</Link></li>\n" "$base" "$(date '+%Y %b %d')"  "$realname" > "$tmpdir/link"
+    # printf doesn't need \n if newlines are added in print block
+    printf "import React from \"react\"; 
+import {Helmet} from \"react-helmet\"
+import {Link} from \"gatsby\";
+import \"$css\";
 import BackButton from \"../../articles/back_button/back_button\";\\n\\n
-const Article = () => {\\n
-    return (\\n
-	<React.Fragment>\\n
-	<Helmet>\\n
-		<title>%s | %s</title>\\n
-	</Helmet>\\n
-	<div className='article-container'>\\n
-    <div className='entry'>\\n
-		<BackButton />\\n
-        <h1 id='%s'>%s</h1>\\n
-        <div>\\n
-		%s\\n
-		</div>\\n
-		<small>by <Link to=\"/\">%s</Link></small>
-        <small> | %s</small>\\n
-    </div>\\n
-	</div>\\n
-	</React.Fragment>\\n
+const Article = () => {
+    return (
+        <React.Fragment>
+            <Helmet>
+                <title>%s | %s</title>
+            </Helmet>
+            <div className='article-container'>
+                <div className='entry'>
+                    <BackButton />
+                    <h1 id='%s'>%s</h1>
+                    <div className=\"small\">
+                        <small>by <Link to=\"/\">%s</Link></small>
+                        <small> | %s</small>
+                    </div>
+                    <div>
+                    %s\\n
+                    </div>
+                    <footer>
+                        <small>by <Link to=\"/\">%s</Link></small>
+                        <small> | %s</small>\\n
+                    </footer>
+                </div>
+            </div>
+        </React.Fragment>
     )\\n
-}\\n\\n export default Article" "$realname" "$name" "$base" "$realname" "$(cat "$webdir/blog/.drafts/$basefile")" "$name" "$webdate" > "$webdir/blog/$basefile"
+}\\n\\n export default Article" "$realname" "$name" "$base" "$realname" "$name" "$webdate" "$(cat "$webdir/blog/.drafts/$basefile")" "$name" "$webdate" > "$webdir/blog/$basefile"
 	# sed -i "" "/$require/r $tmpdir/require" "$indexfile"
 	sed -i "/$link/r $tmpdir/link" "$indexfile"
 	sed -i "/ \"$base.jsx\"/d" "$archivefile"
