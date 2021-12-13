@@ -97,6 +97,7 @@ footer {
 		min-width: 300px;
 		max-width: 600px;
 		align-items: center;
+        text-align: left;
 	}
 
 	.articles-list {

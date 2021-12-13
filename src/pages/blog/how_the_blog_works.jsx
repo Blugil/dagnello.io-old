@@ -34,11 +34,11 @@ const Article = () => {
         <div>
     
             <p>
-                Think of a typical modern blog for a moment. Your brain might have wandered to thinking of an intricate frontend, some CMS as a backend (bonus points if it includes some form of it's own editor), 
-                or maybe a site like Wordpress? The tools you may have thought of are excellent, maybe you even use them yourself, but they're not what I want my blog to be.
+                Think of a typical modern blog for a moment. Your brain might have wandered to thinking of an intricate frontend, some CMS as a backend (bonus points if it includes some form of its own editor), 
+                or maybe a site like Wordpress. The tools you may have thought of are excellent, maybe you even use them yourself, but they're not what I want my blog to be.
             </p>
             <p>
-                I want my blog to be a modernization of traditional techniques. I want the entirety of my website and blog content to be files owned by me stored on my own computer. I want the freedom 
+                I want my blog to be a modernization of traditional techniques. I want the entirety of my website and blog content to be files owned by me and stored on my own computer. I want the freedom 
                 to write blog posts without the need for an internet connection. And lastly I want to be free of reliance from as many third party tools as possible. With those desires in mind, my 
                 blog was born.
             </p>
