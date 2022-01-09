@@ -8,7 +8,9 @@
 #home-container .section {
 	margin-bottom: 4em;
 }
-
+#home-container li:hover {
+    text-decoration: underline;
+}
 #home-container ul {
 	list-style: none;
 	padding: 0px;
@@ -24,7 +26,4 @@
 
 
 @media (max-width: 800px) {
-	#home-container p {
-		text-align: center;
-	}
 }

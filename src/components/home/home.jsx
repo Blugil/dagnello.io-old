@@ -11,7 +11,8 @@ const home = () => {
 			<div className="section">
 				<h1>Recent Articles</h1>
 				<ul>
-					<li>2021 Nov 21 &ndash; <Link to="/blog/revamping_my_website_and_making_a_blog">Revamping My Website and Making a Blog</Link></li>
+					<li><Link to="/blog/how_the_blog_works">2021 Dec 01 &ndash; <span>How the Blog Works</span></Link></li>
+					<li><Link to="/blog/revamping_my_website_and_making_a_blog">2021 Nov 21 &ndash; <span>Revamping My Website and Making a Blog</span></Link></li>
 				</ul>
 			</div>
 
