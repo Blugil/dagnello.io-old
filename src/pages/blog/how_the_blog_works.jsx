@@ -49,7 +49,7 @@ const Article = () => {
             </p>
             <h3>The Script</h3>
             <p>
-                A Bash script is what handles most of the magic on this website. Originally authored by <span><a href="https://lukesmith.xyz" target="_blank" rel="no-refferer">Luke Smith</a></span>,
+                A Bash script is what handles most of the magic on this website. Originally authored by <span><a href="https://lukesmith.xyz" target="_blank" rel="noreferrer">Luke Smith</a></span>,
                 this scrtipt's original purpose was to generate and link static html pages. While I love the idea of a website that uses absolutely no Javascript, I already had most of the UI developed 
                 for this site in react so I made some minor modifications.
             </p>
