@@ -8,13 +8,14 @@
 	justify-content: flex-start;
 }
 
-.articles-list h1 {
-	margin-bottom: 40px;
-	color: #ebdbb2;
+.articles-list {
+  padding-left: 0px;
+  
 }
 
 ul {
 	list-style: none;
+  
 }
 
 .articles-list li {
@@ -51,7 +52,7 @@ a {
 .article-container {
 	width: 100%;
 	display: flex;
-	justify-content: center;
+  flex-direction: column;
 }
 
 .entry {

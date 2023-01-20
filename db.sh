@@ -3,7 +3,7 @@
 name="Dominick Agnello"
 webdir="src/pages" # where you want 
 website="https://dagnello.io/" # your base website link keeps trailing slash
-css="../../articles/style.css" # your article styling css page
+css="../../articles/articles.css" # your article styling css page
 indexfile="src/articles/articles.jsx" # the file where the links to your articles will live
 # require="\/\/<!-- Require -->"
 link="<h1>2023<\/h1>" # where your article links will be put under

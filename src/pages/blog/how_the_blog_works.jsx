@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet"
 
 import {Link} from "gatsby";
 
-import "../../articles/style.css";
+import "../../articles/articles.css"
 
 import BackButton from "../../articles/back_button/back_button";
 
