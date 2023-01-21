@@ -17,9 +17,9 @@ const ProfileCard = () => {
                 <a href="/#" style={{color: "#EA0848"}}>o</a>
                 <a href="/#" style={{color: "#F8B148"}}>m</a>
                 inick Agnello</h1>
-            <p>Computer Science student at Arizona State 
+            <p>I'm a Computer Science student at Arizona State 
                 University. Interested in web development, 
-                C, Rust, Linux, NeoVim, and general tinkering.</p> 
+                Rust, Linux, Neovim, and just general tinkering.</p> 
             <ul className="list">
                 <li> 
                     <a href="https://github.com/Blugil" rel="noreferrer" target="_blank">
