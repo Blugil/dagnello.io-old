@@ -6,7 +6,6 @@ import './profileCard.css';
 import blugil from '../../images/blugil.png'
 import github from '../../images/list/github.png'
 import linkedin from '../../images/list/linkedin.png'
-import reddit from '../../images/list/reddit.png'
 
 
 
@@ -30,11 +29,6 @@ const ProfileCard = () => {
                 <li>
                     <a href="https://www.linkedin.com/in/dominickagnello/" rel="noreferrer" target="_blank">
                         <img className="listimage" alt="linkedin link" src={linkedin} />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://reddit.com/u/Blugil" rel="noreferrer" target="_blank">
-                        <img className="listimage" alt="reddit link" src={reddit} />
                     </a>
                 </li>
             </ul>
