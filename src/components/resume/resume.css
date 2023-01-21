@@ -4,8 +4,7 @@
 	color: #ebdbb2;
 }
 
-h1 {
-}
+
 h2 {
 	margin-top: 40px;
 	font-size: 32px;
@@ -28,3 +27,9 @@ span {
 .spacer {
 	height: 300px;
 }
+
+
+.resume-container li {
+  padding-bottom: 10px;
+}
+

@@ -1,15 +1,15 @@
 #!/bin/bash
 
 name="Dominick Agnello"
-webdir="src/pages"
-website="https://dagnello.io/" # keeps trailing slash
-css="../../articles/style.css"
-indexfile="src/articles/articles.jsx"
+webdir="src/pages" # where you want 
+website="https://dagnello.io/" # your base website link keeps trailing slash
+css="../../articles/articles.css" # your article styling css page
+indexfile="src/articles/articles.jsx" # the file where the links to your articles will live
 # require="\/\/<!-- Require -->"
-link="<h1>2021<\/h1>"
+link="<h1>2023<\/h1>" # where your article links will be put under
 
-archivefile="$webdir/blog/.htaccess"
-EDITOR="nvim"
+archivefile="$webdir/blog/.htaccess" #this just shows a record of all added blog posts
+EDITOR="nvim" # change your editor 
 
 #initialzies the drafts directory
 [ ! -d "$webdir/blog/.drafts" ] &&
@@ -36,7 +36,7 @@ newpost() { read -erp "Give a title for your post:
     #double checks if that post already exists
 	( [ -f "$webdir/blog/.drafts/$url.jsx" ] || [ -f "$webdir/blog/$url.jsx" ] ) && echo "There is already an existing draft or post of that same name/URL." && exit
 
-    #allows us to start writing the draft
+    # opens a file named the article title in the file format of your choosing
 	$EDITOR "$webdir/blog/.drafts/$url.jsx";
 }
 
@@ -63,7 +63,8 @@ publish() { \
 	tmpdir=$(mktemp -d)
     # printf "let %s = require(\"./blog/%s\");\n" "$base" "$basefile" > "$tmpdir/require"
     printf "\\t\\t\\t\\t<li><Link to=\"/blog/%s\">%s &ndash; %s</Link></li>\n" "$base" "$(date '+%Y %b %d')"  "$realname" > "$tmpdir/link"
-    # printf doesn't need \n if newlines are added in print block
+    # this is the text for the article template, %s is used as a placeholder for variables listed at the end of the print statement
+    # structure this however you would want your template to look
     printf "import React from \"react\"; 
 import {Helmet} from \"react-helmet\"
 import {Link} from \"gatsby\";

@@ -13,7 +13,7 @@ const Resume = (props) => {
                 Education
             </h2>
             <div className="line"></div>
-            <p className="subh">Arizona State University, Tempe AZ | Expected graduation: May 2023</p>
+            <p className="subh">Arizona State University, Tempe AZ | Expected graduation: December 2023</p>
             <ul>
                 <li>
                     Pursuing a bachelor's degree in Computer Science. 
@@ -30,7 +30,20 @@ const Resume = (props) => {
                 Work Experience
             </h2>
             <div className="line"></div>
-            <p className="subh">Computer Science Undergraduate Teaching Assistant at Arizona State University | Jan 2021 - Present</p>
+            <p className="subh">Software Engineering Intern, Team Integrations | LaunchDarkly: May 2022 - August 2022</p>
+            <ul>
+                <li>
+                  Developed, tested, and published production level code for LaunchDarkly's teams Terraform integration using Golang. This integration allowed LaunchDarkly users to spin up teams dynamically using the Terraform Provider. 
+                </li>
+                  Presented the above Terraform integration at the engineering-team-wide project showcase on behalf of the integrations team to group of around 120 people.
+                <li>
+                  Built and tested a small integration update with Zapier allowing for custom JSON input for LaunchDarkly flag updates which was pushed to production.
+                </li>
+                <li>
+                  Led a small team for a company-wide hackathon developing a small prototype Discord integration with the LaucnhDarkly API as an alternative to the current implemented LaunchDarkly Slack bot. 
+                </li>
+            </ul>
+            <p className="subh">Computer Science Undergraduate Teaching Assistant at Arizona State University | Jan 2021 - May 2022</p>
             <ul>
                 <li>
                     Host office hours for two or more hours per week assisting up to 20 students at a time with assignments 
