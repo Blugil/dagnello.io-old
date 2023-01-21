@@ -20,7 +20,7 @@ const home = () => {
 				<h1>Check out my Resume!</h1>
 				<small><Link to="/resume"><span>website link</span></Link> | <a href={resume} download><span>pdf download</span></a></small>
 				<p>
-					I've got quite a bit of experience in a few different fields such as: ReactJS front end development for a major design firm,
+					I've got quite a bit of experience in a few different fields such as: Backend Golang development for LaunchDarkly working on our Terraform integration, ReactJS front end development for a major design firm,
 					teaching experience with programming (C/C++/Scheme/Bash/Prolog), and customer focused service work. If you think my skills and I
 					would be a good fit feel free to...
 				</p>
