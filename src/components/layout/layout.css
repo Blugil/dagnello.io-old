@@ -1,25 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
 body { 
 	background-color: #282828;
 	margin: 0; 
 	margin-top: 100px;
 	margin-left: 3em;	
 	margin-right: 3em;
+  font-family: Inter;
 }
+
+h1 {
+  font-size: 24px;
+  margin: 0px; 
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+ol {
+  margin-bottom: 2em;
+}
+
+span {
+	color:#EA0848;
+}
+
+
+footer {
+    margin-bottom: 8.0em;
+}
+
+
+a {
+	text-decoration: none;
+	color: #ebdbb2;
+  cursor: pointer;
+}
+
 
 .main {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
-#menu {
+#profile {
 	height: auto;
 	max-width: 350px;
-	margin-right: 50px;
+	margin-right: 5em;
 }
-
-
 
 @media (max-width: 800px) {
 	body {
@@ -42,6 +74,12 @@ body {
 		margin-right: 0px;
 		margin-bottom: 2em;
 	}
+  
+  #profile {
+    height: auto;
+    max-width: 350px;
+    margin: 0px;
+  }
 
 	
 }

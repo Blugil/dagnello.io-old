@@ -6,7 +6,7 @@ import './layout.css'
 const Layout = (props) => {
 	return(
 		<div className="main">
-			<div id="menu">
+			<div id="profile">
 				<ProfileCard />
 			</div>
 			<div id="content">

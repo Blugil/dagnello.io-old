@@ -8,13 +8,12 @@ const Articles = () => {
 
 	return(
 		<div className="articles-container">
-        <div className="article-container" id="2023">
-        
+        <div id="2023">
           <h1>2023</h1>
           <ul className="articles-list">
           </ul>
         </div>
-        <div className="article-container" id="2021">
+        <div  id="2021">
           <h1>2021</h1>
           <ul className="articles-list">
                 <li><Link to="/blog/how_the_blog_works">2021 Dec 01 &ndash; How the Blog Works</Link></li>

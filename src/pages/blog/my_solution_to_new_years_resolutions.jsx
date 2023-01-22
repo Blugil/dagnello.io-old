@@ -23,7 +23,7 @@ My Solution to New Years Resolutions</h1>
                     </div>
                     <div>
                       <p>
-                        Example
+                        
                       </p>
                     </div>
                     <footer>

@@ -1,17 +1,6 @@
 .resume-container {
 	max-width: 1000px;
-	font-family: Andale Mono, monospace;
 	color: #ebdbb2;
-}
-
-
-h2 {
-	margin-top: 40px;
-	font-size: 32px;
-}
-
-span {
-	font-style: bold;
 }
 
 .subh {
@@ -24,10 +13,10 @@ span {
 	background-color: #ebdbb2;
 }
 
-.spacer {
-	height: 300px;
+.resume-container ul {
+  padding-left: 50px;
+  list-style: disc;
 }
-
 
 .resume-container li {
   padding-bottom: 10px;
