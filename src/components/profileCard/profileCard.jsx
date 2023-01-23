@@ -11,7 +11,7 @@ import linkedin from '../../images/list/linkedin.png'
 
 const ProfileCard = () => {
 	return(
-		<div className="container">
+		<div className="container profilecard">
             <img className="profileimage" alt="profile" src={blugil} />
             <h1><a href="/#" style={{color: "#5BC0BE"}}>D</a>
                 <a href="/#" style={{color: "#EA0848"}}>o</a>

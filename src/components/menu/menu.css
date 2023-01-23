@@ -22,19 +22,14 @@
  }
 
 
-a {
-	text-decoration: none;
-	color: #ebdbb2;
-}
-
  .active .bar {
 	 background-color: #EA0848;
 	 opacity: 1;
  }
 
 .bar {
-	height: 34px;
-	width: 2px;
+	height: 24px;
+	width: 1px;
 	background-color: #EA0848;
 	opacity: 0;
 	margin-right: 10px;
