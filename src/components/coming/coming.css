@@ -1,7 +1,6 @@
 #coming-soon {
-	font-family: Andale Mono, monospace;
 	font-size: 70px;
-	color: #ebdbb2;
+	color: var(--highlight);
 	max-width: 800px;
 	min-width: 400px;
 	height: 25rem;

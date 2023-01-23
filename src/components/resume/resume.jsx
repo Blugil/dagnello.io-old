@@ -1,7 +1,7 @@
 import React from 'react';
 import './resume.css'
 
-const Resume = (props) => {
+const Resume = () => {
     return (
         <div className="resume-container">
             <h1>
@@ -9,9 +9,9 @@ const Resume = (props) => {
             </h1>
             <p>Email: <a href="https://gmail.com" target="_blank" rel="noreferrer">dagnello@asu.edu</a> | Website: <a href="http://dagnello.io" target="_blank" rel="noreferrer"> dagnello.io </a></p>
             <p>Github: <a href="https://github.com/blugil" target="_blank" rel="noreferrer">github.com/blugil</a> | LinkedIn: <a href="https://linkedin.com/in/dominickagnello" target="_blank" rel="noreferrer">linkedin.com/in/dominickagnello </a></p>
-            <h2>
+            <h1>
                 Education
-            </h2>
+            </h1>
             <div className="line"></div>
             <p className="subh">Arizona State University, Tempe AZ | Expected graduation: December 2023</p>
             <ul>
@@ -19,23 +19,25 @@ const Resume = (props) => {
                     Pursuing a bachelor's degree in Computer Science. 
                 </li>
             </ul>
-            <h2>
+            <h1>
                 Skills
-            </h2>
+            </h1>
             <div className="line"></div>
             <p><span>Programming Languages: </span>Javascript, C++, Java, Python</p>
             <p><span>Notable Language Frameworks: </span> ReactJS, NodeJS, and ExpressJS</p>
             <p><span>Softer Skills: </span> Git/Github, Unix terminal, Linux environments, MacOS, MongoDB, RESTful API's, Adobe Suit, LaTeX</p>
-            <h2>
+            <h1>
                 Work Experience
-            </h2>
+            </h1>
             <div className="line"></div>
             <p className="subh">Software Engineering Intern, Team Integrations | LaunchDarkly: May 2022 - August 2022</p>
             <ul>
                 <li>
                   Developed, tested, and published production level code for LaunchDarkly's teams Terraform integration using Golang. This integration allowed LaunchDarkly users to spin up teams dynamically using the Terraform Provider. 
                 </li>
+                <li>
                   Presented the above Terraform integration at the engineering-team-wide project showcase on behalf of the integrations team to group of around 120 people.
+                </li>
                 <li>
                   Built and tested a small integration update with Zapier allowing for custom JSON input for LaunchDarkly flag updates which was pushed to production.
                 </li>
@@ -77,9 +79,9 @@ const Resume = (props) => {
                     by providing proactive customer engagement to ensure holdups prevented.
                 </li>
             </ul>
-            <h2>
+            <h1>
                 Projects 
-            </h2>
+            </h1>
             <div className="line"></div>
             <p className="subh">What's for Lunch?</p>
             <p>An inhouse lunch ordering web application created while working at Fisher PHX.</p>

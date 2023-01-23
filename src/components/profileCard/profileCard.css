@@ -1,18 +1,21 @@
 .container {
-    font-family: monospace;
     height: fit-content;
     width: 350px;
-    color: #ebdbb2;
+    color: var(--highlight);
 }
 .profileimage {
-	height: 100px;
-	width: 100px;
+	height: 80px;
+	width: 80px;
 	border-radius: 50px;
 }
-h1 {
-    font-size: 36px;
-    font-family: Andale Mono, monospace;
+
+.profilecard h1 {
+    font-size: 24px;
     margin: 10px 0px;
+}
+
+.profilecard p {
+  font-size: 0.9em;
 }
 
 .list {
@@ -37,6 +40,7 @@ h1 {
 .list li:hover {
     cursor: pointer;
 }
+
 
 
 @media (max-width: 800px) {

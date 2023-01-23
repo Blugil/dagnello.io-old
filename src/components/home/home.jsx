@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import resume from "../../../static/resume.pdf"
+import Recent from "../../components/recent_articles/recent_articles"
 
 import "./home.css";
 
@@ -9,20 +10,17 @@ const home = () => {
 	return(
 		<div id="home-container">
 			<div className="section">
-				<h1>Recent Articles</h1>
-				<ul>
-					<li><Link to="/blog/how_the_blog_works">2021 Dec 01 &ndash; <span>How the Blog Works</span></Link></li>
-					<li><Link to="/blog/revamping_my_website_and_making_a_blog">2021 Nov 21 &ndash; <span>Revamping My Website and Making a Blog</span></Link></li>
-				</ul>
+        <Recent />
 			</div>
 
 			<div className="section">
 				<h1>Check out my Resume!</h1>
 				<small><Link to="/resume"><span>website link</span></Link> | <a href={resume} download><span>pdf download</span></a></small>
 				<p>
-					I've got quite a bit of experience in a few different fields such as: Backend Golang development for LaunchDarkly working on our Terraform integration, ReactJS front end development for a major design firm,
-					teaching experience with programming (C/C++/Scheme/Bash/Prolog), and customer focused service work. If you think my skills and I
-					would be a good fit feel free to...
+					I've got quite a bit of experience in a few different fields such as: Backend Golang development 
+          for LaunchDarkly working on our Terraform integration, ReactJS front end development for a major design firm,
+					teaching experience with programming (C/C++/Scheme/Bash/Prolog), and customer focused service work. 
+          If you think my skills and I would be a good fit feel free to...
 				</p>
 			</div>
 
@@ -30,8 +28,9 @@ const home = () => {
 				<h1>Contact Me</h1>
 				<p>
 					I'm always looking to make new connections and explore new opportunities to both demonstrate and expand my skills. 
-					If you decide I'd be a good fit for a team or project after taking a look at my resume and/or a few of my posts, click <Link to="/contact"><span>here </span></Link>
-					and leave your name, a return email, and some information. I'll respond as soon as I'm able.
+					If you decide I'd be a good fit for a team or project after taking a look at my resume and/or a few of my posts, 
+          click <Link to="/contact"><span>here </span></Link> and leave your name, a return email, and some information. 
+          I'll respond as soon as I'm able.
 				</p>
 			</div>	
 

@@ -3,9 +3,9 @@ import { Link } from 'gatsby';
 
 import './menu.css'
 
-const Menu = (props) => {
+const Menu = () => {
 	return(
-		<div className="container">
+		<div className="container menu">
 			<ul className="nav">
 				<li className="navitem">
 					<Link to="/"
