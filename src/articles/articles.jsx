@@ -4,13 +4,13 @@ import { Link } from "gatsby"
 
 const Articles = () => {
 
-  //<li><Link to="/blog/my_solution_to_new_years_resolutions">2023 Jan 19 &ndash; My Solution to New Years Resolutions</Link></li> 
 
 	return(
 		<div className="articles-container">
         <div id="2023">
           <h1>2023</h1>
           <ul className="articles-list">
+            <li><Link to="/blog/my_solution_to_new_years_resolutions">2023 Jan 19 &ndash; My Solution to New Years Resolutions</Link></li> 
           </ul>
         </div>
         <div  id="2021">
