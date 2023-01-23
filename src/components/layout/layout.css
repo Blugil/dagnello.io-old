@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
+:root {
+  --highlight: #eaeaea;
+  --background: #181818;
+}
+
 body { 
-	background-color: #282828;
+	background-color: var(--background);
 	margin: 0; 
 	margin-top: 100px;
 	margin-left: 3em;	
@@ -35,7 +40,7 @@ footer {
 
 a {
 	text-decoration: none;
-	color: #ebdbb2;
+	color: var(--highlight);
   cursor: pointer;
 }
 

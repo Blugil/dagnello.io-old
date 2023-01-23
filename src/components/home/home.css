@@ -1,7 +1,7 @@
 #home-container {
 	max-width: 700px;
 	min-width: 350px;
-	color: #ebdbb2;
+	color: var(--highlight);
 }
 
 #home-container .section {
