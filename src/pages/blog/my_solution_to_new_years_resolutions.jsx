@@ -30,7 +30,7 @@ const Article = () => {
                         So how is this different from a goal? You cannot fail to complete a theme like you can fail to complete a goal. So many New Year's resolutions are abandoned because "oh, I'm just too busy" or "I was doing something that was too hard," and so taking one day off the goal cascades into dropping it entirely. Themes, however, do not have a "completion," and while some may argue that is a flaw, I argue that is their benefit. It allows you to "cheat" a few days without doing something without feeling like you've just thrown away your goal.
                       </p>
                       <p>
-                        The idea is that you make more decisions in the direction of your theme than against it, and by the end of the year, you've done a better job at whatever "thing" you wanted to do than the last year, right? Not everything is about maximizing every day to its fullest potential and completely changing your life with a single thought; sometimes it's just about being even just a little better than you were the day before.
+                        The idea is that you make more decisions in the direction of your theme than against it, and by the end of the year, you've done a better job at whatever "thing" you wanted to do than the last year, right? Not everything is about maximizing every day to its fullest potential and completely changing your life with a single thought; sometimes it's only about being a little better than you were the day before.
                       </p>
                     </div>
                     <footer>
