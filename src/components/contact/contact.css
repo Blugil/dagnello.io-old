@@ -25,7 +25,6 @@
 }
 
 .form-input textarea {
-
 	width: 100%;
 	height: 18em;
 	color: var(--highlight);
@@ -54,6 +53,7 @@ button:hover {
 
 @media (max-width: 800px) {
   #contact-container {
+    width: 100%;
   }
 }
 
