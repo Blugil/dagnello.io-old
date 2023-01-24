@@ -28,7 +28,7 @@ const home = () => {
 				<h1>Contact Me</h1>
 				<p>
 					I'm always looking to make new connections and explore new opportunities to both demonstrate and expand my skills. 
-					If you decide I'd be a good fit for a team or project after taking a look at my resume and/or a few of my posts, 
+					If you think I'd be a good fit for a team or project after taking a look at my resume and/or a few of my posts, 
           click <Link to="/contact"><span>here </span></Link> and leave your name, a return email, and some information. 
           I'll respond as soon as I'm able.
 				</p>
