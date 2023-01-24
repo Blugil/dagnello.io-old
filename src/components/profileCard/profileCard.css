@@ -25,10 +25,13 @@
 }
 
 .list li {
-
     list-style-type: none;
     display: inline;
     margin-right: 18px;
+}
+
+.list li:last-child {
+  margin-right: 0px;
 }
 
 .list img {
@@ -49,9 +52,7 @@
         flex-direction: column;
         align-items: center;
         margin: auto;
-    }
-    p {
-        font-size: 14px;
+        width: 100%;
     }
 
 }

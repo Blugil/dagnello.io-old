@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
 :root {
-  --highlight: #eaeaea;
+  --highlight: #eae6dc;
   --background: #181818;
 }
 
@@ -44,6 +44,9 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  text-decoration: underline;
+}
 
 .main {
 	display: flex;
@@ -61,10 +64,13 @@ a {
 @media (max-width: 800px) {
 	body {
 		margin-top: 30px;
-        margin-left: 1em;
-        margin-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 	}
 
+  p {
+      font-size: 14px;
+  }
 	.main {
 		flex-direction: column;
 		flex-wrap: nowrap;
@@ -73,6 +79,10 @@ a {
 	
 	#content {
 		min-height: 10rem;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 	}
 
 	#menu {
@@ -84,7 +94,8 @@ a {
     height: auto;
     max-width: 350px;
     margin: 0px;
+    width: 90vw;
+    text-align: center;
   }
 
-	
 }

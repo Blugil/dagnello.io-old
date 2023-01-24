@@ -12,6 +12,10 @@
 }
 
 @media (max-width: 800px) {
+  #home-container {
+    min-width: 100%;
+    width: 100%;
+  }
 }
 
 
