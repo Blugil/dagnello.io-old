@@ -63,7 +63,7 @@
 		margin-top: 5px;
 	}
 
-	.nav li {
+	.nav li:nth-child(-n + 3) {
 		padding-right: 20px;
 	}
 	

@@ -68,6 +68,9 @@ a:hover {
     margin-right: 1em;
 	}
 
+  p {
+      font-size: 14px;
+  }
 	.main {
 		flex-direction: column;
 		flex-wrap: nowrap;
@@ -91,7 +94,8 @@ a:hover {
     height: auto;
     max-width: 350px;
     margin: 0px;
+    width: 90vw;
+    text-align: center;
   }
 
-	
 }
