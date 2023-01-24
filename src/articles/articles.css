@@ -72,6 +72,7 @@
 @media (max-width: 800px) {
 	
 	.articles-container {
+    min-width: 100%;
     width: 100%;
 		align-items: center;
     text-align: left;

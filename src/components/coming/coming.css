@@ -1,8 +1,6 @@
 #coming-soon {
 	font-size: 70px;
 	color: var(--highlight);
-	max-width: 800px;
-	min-width: 400px;
 	height: 25rem;
 	display: flex;
 	flex-direction: column;
